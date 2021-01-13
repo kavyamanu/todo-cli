@@ -1,0 +1,25 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "A command line program that manages todo tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KavYeahh/todo-cli.git"
+  },
+  "keywords": [
+    "javascript",
+    "node.js",
+    "todo",
+    "cli"
+  ],
+  "author": "kavya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KavYeahh/todo-cli/issues"
+  },
+  "homepage": "https://github.com/KavYeahh/todo-cli#readme"
+}
