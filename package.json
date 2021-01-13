@@ -1,5 +1,5 @@
 {
-  "name": "todo-cli",
+  "name": "node-todo-cli",
   "version": "1.0.0",
   "description": "A command line program that manages todo tasks",
   "main": "todo.js",
