@@ -20,7 +20,8 @@ $ ./todo ls               # Show remaining todos
 $ ./todo del NUMBER       # Delete a todo
 $ ./todo done NUMBER      # Complete a todo
 $ ./todo help             # Show usage
-$ ./todo report           # Statistics`;
+$ ./todo report           # Statistics
+$ ./todo completed        # show completed todos`;
 
 test("prints help when no additional args are provided", () => {
   let received = execSync(todoTxtCli()).toString("utf8");

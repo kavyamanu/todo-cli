@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { add, ls, report, done, del, read, completed } = require("./operations");
 
 const args = process.argv.slice(2);

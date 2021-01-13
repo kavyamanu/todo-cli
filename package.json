@@ -2,7 +2,7 @@
   "name": "todo-cli",
   "version": "1.0.0",
   "description": "A command line program that manages todo tasks",
-  "main": "index.js",
+  "main": "todo.js",
   "scripts": {
     "test": "jest"
   },
@@ -24,5 +24,8 @@
   "homepage": "https://github.com/KavYeahh/todo-cli#readme",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "bin": {
+    "todo": "todo.js"
   }
 }
