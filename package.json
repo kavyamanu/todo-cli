@@ -4,7 +4,7 @@
   "description": "A command line program that manages todo tasks",
   "main": "todo.js",
   "scripts": {
-    "test": "jest"
+    "test": "npm link && jest"
   },
   "repository": {
     "type": "git",

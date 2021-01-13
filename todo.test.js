@@ -12,7 +12,7 @@ beforeEach(() => {
   deleteFile(`${__dirname}/done.txt`);
 });
 
-let todoTxtCli = (...args) => [`${__dirname}/todo`, ...args].join(" ");
+let todoTxtCli = (...args) => ["todo", ...args].join(" ");
 
 let usage = `Usage :-
 $ ./todo add "todo item"  # Add a new todo
@@ -219,7 +219,7 @@ test("report pending & completed todos", () => {
   expect(received).toEqual(expect.stringContaining(expected));
 });
 
-test.only('list completed tasks', () => {
+test('list completed tasks', () => {
   let todos = [
     "the thing i need to do",
     "water the plants",
